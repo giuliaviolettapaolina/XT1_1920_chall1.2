@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700|Raleway:300&display=swap');
+
+*{
+    margin: 0px;
+}
+
+h1, h2{
+    padding-left: 35px;
+}
+
+h1{
+    font-family: 'PT Serif', serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 30px;
+}
+
+h2{
+    font-family: 'PT Serif', serif;
+    font-size: 46px;
+    font-weight: 400;
+    margin: 0;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    padding: 10px 15px 10px 35px;
+    line-height: 26px;
+}
+
+section{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.article{
+    display: flex;
+    justify-content: flex-end;
+    height: 100vh;
+    width: calc(100% - 0px);
+    margin: 10px 0px 10px 10px;
+    padding-right: 8px;
+}
+
+#one{
+    background-image: url(images/globaldrie.svg);
+    background-size: 600px;
+    background-position: 50% 75%;
+    background-repeat: no-repeat;
+}
+
+#two{
+    background-image: url(images/startup.svg);
+    background-size: 600px;
+    background-position: 50% 75%;
+    background-repeat: no-repeat;
+}
+#three{
+    background-image: url(images/datatwee.svg);
+    background-size: 600px;
+    background-position: 50% 75%;
+    background-repeat: no-repeat;
+}
+#four{
+    background-image: url(images/visual.svg);
+    background-size: 600px;
+    background-position: 50% 75%;
+    background-repeat: no-repeat;
+}
+
+#five{
+    background-image: url(images/bombaclat.svg);
+    background-size: 600px;
+    background-position: 50% 75%;
+    background-repeat: no-repeat;
+}
+
+#six{
+    background-image: url(images/phone.svg);
+    background-size: 600px;
+    background-position: 50% 75%;
+    background-repeat: no-repeat;
+}
+
+#seven{
+    background-image: url(images/programmer.svg);
+    background-size: 600px;
+    background-position: 50% 75%;
+    background-repeat: no-repeat;
+}
+
+#eight{
+    background-image: url(images/communication.svg);
+    background-size: 600px;
+    background-position: 50% 75%;
+    background-repeat: no-repeat;
+}
+
+.dot{
+    width:25px;
+    height: 25px;
+    background-color: green;
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+
+@media only screen and (min-width : 320px) {
+    .article{
+        width: calc(100% - 0px);
+    }
+    
+    #lineOne{
+        background-color: green;
+        position: absolute;
+        margin: 16px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 10px;
+        height: 6570px;
+    }
+    
+    .dot{
+        display: flex;
+        justify-content: flex-start;
+        margin: 30px 0px 0px -1px;
+/*
+        margin-left: -1px;
+        margin-top: 30px;
+*/
+    }
+
+    #one{
+        background-image: url(images/globaldrie.svg);
+        background-size: cover;
+        background-position: left bottom;
+        background-repeat: no-repeat;
+    }
+
+    #two{
+        background-image: url(images/rocket1.svg);
+        background-size: 500px;
+        background-position: 200% 100%;
+        background-repeat: no-repeat;
+    }
+    #three{
+        background-image: url(images/datatwee.svg);
+        background-size: cover;
+        background-position: left bottom;
+        background-repeat: no-repeat;
+    }
+    #four{
+        background-image: url(images/visual.svg);
+        background-size: cover;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+    
+    #five{
+        background-image: url(images/bombaclat.svg);
+        background-size: cover;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+    
+    #six{
+        background-image: url(images/phone.svg);
+        background-size: cover;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+    
+    #seven{
+        background-image: url(images/programmer.svg);
+        background-size: cover;
+        background-position: left bottom;
+        background-repeat: no-repeat;
+    }
+    
+    #eight{
+        background-image: url(images/communication.svg);
+        background-size: cover;
+        background-position: left bottom;
+        background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (min-width : 765px) {
+    section{
+        width: calc(390% - 0px);
+    }
+    .article{
+        width: calc(11.87% - 0px);
+    }
+    
+    #lineOne{
+        background-color: green;
+        height: 7px;
+        width: calc(390% - 0px);
+        margin: 20px 0px 0px 0px;
+        position: absolute;
+        opacity: 0.8;
+    }
+    .dot{
+        display: flex;
+        justify-content: flex-start;
+        margin: 0px 0px 0px 30px;
+/*
+        margin-left: 30px;
+        margin-top: 0px;
+*/
+    }
+}
+
+@media only screen and (min-width : 1220px) {
+    
+    section{
+        width: calc(310% - 0px);
+    }
+    .article{
+        width: calc(10% - 0px);
+    }
+    
+    
+    #lineOne{
+        background-color: green;
+        height: 7px;
+        width: calc(310% - 0px);
+        margin: 20px 0px 0px 0px;
+        position: absolute;
+        opacity: 0.8;
+    }
+    .dot{
+        display: flex;
+        justify-content: flex-start;
+        margin: 0px 0px 0px 30px;
+    }
+
+    #one{
+        background-image: url(images/globaldrie.svg);
+        background-size: 500px;
+        background-position: -30% 100%;
+        background-repeat: no-repeat;
+    }
+
+    #two{
+        background-image: url(images/rocket1.svg);
+        background-size: 300px;
+        background-position: 200% 100%;
+        background-repeat: no-repeat;
+    }
+    #three{
+        background-image: url(images/datatwee.svg);
+        background-size: 500px;
+        background-position: -100% 100%;
+        background-repeat: no-repeat;
+    }
+    #four{
+        background-image: url(images/visual.svg);
+        background-size: 500px;
+        background-position: 20% 100%;
+        background-repeat: no-repeat;
+    }
+    
+    #five{
+        background-image: url(images/bombaclat.svg);
+        background-size: 500px;
+        background-position: 20% 100%;
+        background-repeat: no-repeat;
+    }
+    
+    #six{
+        background-image: url(images/phone.svg);
+        background-size: 800px;
+        background-position: 10% 100%;
+        background-repeat: no-repeat;
+    }
+    
+    #seven{
+        background-image: url(images/programmer.svg);
+        background-size: 600px;
+        background-position: -30% 100%;
+        background-repeat: no-repeat;
+    }
+    
+    #eight{
+        background-image: url(images/communication.svg);
+        background-size: 600px;
+        background-position: -30% 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (min-width : 1820px) {
+    section{
+        width: calc(190% - 0px);
+    }
+    .article{
+        width: calc(10% - 0px);
+    }
+    #lineOne{
+        background-color: green;
+        height: 7px;
+        width: calc(190% - 0px);
+        margin: 20px 0px 0px 0px;
+        position: absolute;
+        opacity: 0.8;
+    }
+    .dot{
+        display: flex;
+        justify-content: flex-start;
+        margin: 0px 0px 0px 30px;
+    }
+}
